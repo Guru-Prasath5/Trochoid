@@ -1,12 +1,5 @@
 build:
   languages:
     - html
-  packages:
-    - Trochoid
-  config:
-    RAILS_ENV: development
-release:
-  command:
-    - rake db:migrate
 run:
   web: bundle exec puma -C /index.html
