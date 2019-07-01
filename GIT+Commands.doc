@@ -1,0 +1,349 @@
+Message-ID: <957448286.227287.1561962714694.JavaMail.confluence@ip-172-30-166-71>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_227286_718808108.1561962714694"
+
+------=_Part_227286_718808108.1561962714694
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GIT Commands</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GIT Commands</h1>
+    <div class=3D"Section1">
+        <ul>
+<li>Checkout to master/branch
+<ul>
+<li>git checkout &lt;branchName&gt;&nbsp;</li>
+<li>Example: git checkout master</li>
+</ul></li>
+<li>Check status of local repository
+<ul>
+<li>git status</li>
+</ul></li>
+<li>Update from remote repository (fetch and merge)
+<ul>
+<li>git pull</li>
+</ul></li>
+<li>Commit to local repository&nbsp;and push to remote&nbsp;repository
+<ul>
+<li><p><span style=3D"color: rgb(69,69,69);">git add --all (add all newly a=
+dded files - files are staged)</span></p></li>
+<li><p><span style=3D"color: rgb(69,69,69);">git add &lt;filename&gt; (to a=
+dd a single file)</span></p></li>
+<li><p>git commit -m "Initial Commit" (files are committed to local reposit=
+ory)</p></li>
+<li><p><span style=3D"color: rgb(69,69,69);">git push -u origin &lt;branchN=
+ame&gt; (files are pushed to remote repository)</span></p></li>
+</ul></li>
+<li><p><span style=3D"color: rgb(69,69,69);">Stash/Shelve</span></p>
+<ul>
+<li><p><span style=3D"color: rgb(69,69,69);">git stash (Shelves all the cur=
+rent changes)</span></p></li>
+<li><p><span style=3D"color: rgb(69,69,69);">git stash pop (Un-shelves most=
+ recent stashed changes)</span></p></li>
+</ul></li>
+<li><p><span style=3D"color: rgb(69,69,69);">Undo last commit</span></p></l=
+i>
+<ul>
+<li><p><span style=3D"color: rgb(69,69,69);">git reset --soft HEAD~ (Leaves=
+ files in 'staged' state)</span></p></li>
+<li><p><span style=3D"color: rgb(69,69,69);">git reset --hard&nbsp;<span st=
+yle=3D"color: rgb(69,69,69);">HEAD~</span>&nbsp;(Discards last commit)</spa=
+n></p></li>
+</ul>
+<li><span style=3D"color: rgb(69,69,69);">To reset to remote master (will l=
+oose local changes)</span>
+<ul>
+<li><span style=3D"color: rgb(69,69,69);">git reset --hard origin/master<br=
+></span></li>
+</ul></li>
+<li><p><span style=3D"color: rgb(69,69,69);">Create a new branch</span></p>
+<ul>
+<li><p>git checkout -b &lt;branchName&gt;</p></li>
+</ul></li>
+<li>Push a branch to remote
+<ul>
+<li><p><span style=3D"color: rgb(69,69,69);">git push -u origin &lt;branchN=
+ame&gt;</span></p></li>
+</ul></li>
+<li>Lists branches
+<ul>
+<li>git branch</li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Delete local branch</span>
+<ul>
+<li><span style=3D"color: rgb(255,0,0);">git branch -d &lt;branchName&gt;</=
+span></li>
+</ul></li>
+<li><span style=3D"color: rgb(255,0,0);">Delete remote branch</span>
+<ul>
+<li><p><span style=3D"color: rgb(255,0,0);">git push origin -d &lt;branchNa=
+me&gt;&nbsp;</span></p></li>
+</ul></li>
+<li>Rebase - merge a branch to master
+<ul>
+<li>git checkout &lt;branchName&gt;</li>
+<li>git rebase master (it keep track of all master commits)</li>
+<li>git checkout master</li>
+<li>git merge &lt;branchName&gt;<br><br></li>
+</ul></li>
+</ul>
+<p><strong>Other GIT commands to clone from SVN and clean it up</strong></p=
+>
+<p>Ref :&nbsp;<a href=3D"https://stackoverflow.com/questions/79165/how-do-i=
+-migrate-an-svn-repository-with-history-to-a-new-git-repository" class=3D"e=
+xternal-link" rel=3D"nofollow">https://stackoverflow.com/questions/79165/ho=
+w-do-i-migrate-an-svn-repository-with-history-to-a-new-git-repository</a>&n=
+bsp;(2nd answer)</p>
+<p>Get all authors from SVN:&nbsp;</p>
+<p style=3D"margin-left: 30.0px;">svn log --xml | grep "&lt;author&gt;" | s=
+ort -u | perl -pe 's/.*&gt;(.*?)&lt;.*/$1 =3D /' | tee authors.txt</p>
+<p>Clone from SVN:</p>
+<p style=3D"margin-left: 30.0px;">git svn clone --stdlayout --no-metadata -=
+-authors-file=3Dauthors.txt <a href=3D"https://code.bestbuy.com/svn/dotcom/=
+chargers/clipper-parent/trunk" class=3D"external-link" rel=3D"nofollow">htt=
+ps://code.bestbuy.com/svn/dotcom/chargers/clipper-parent</a> ~/temp/clipper=
+Parent&nbsp;</p>
+<p>Error:</p>
+<p style=3D"margin-left: 30.0px;">You may notice gc error : "gc --auto: com=
+mand returned error: 255"</p>
+<p>Solution: turn off auto gc:</p>
+<p style=3D"margin-left: 30.0px;"><span>git config gc.auto 0</span><br><spa=
+n>git svn fetch</span></p>
+<p>Once the fetch is done successfully, turn on the gc to clean it up:</p>
+<p style=3D"margin-left: 30.0px;">git config --unset gc.auto<br>git gc --au=
+to</p>
+<p>Clone to a clean new dir</p>
+<p style=3D"margin-left: 30.0px;">git clone&nbsp;~/temp/clipperParent&nbsp;=
+&nbsp;~/workspace/clipper-parent</p>
+<p>Remove the remote from the clean repository&nbsp;</p>
+<p style=3D"margin-left: 30.0px;">cd&nbsp;~/workspace/clipper-parent</p>
+<p style=3D"margin-left: 30.0px;">git remote rm origin</p>
+<p>Thats all! Your clean local repository is ready to push to remote.</p>
+<p><strong><br></strong></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_227286_718808108.1561962714694--
